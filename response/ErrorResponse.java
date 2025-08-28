@@ -1,11 +1,9 @@
 package com.rr.example.spring_jpa.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import lombok.Getter;
 
 import java.time.LocalDateTime;
 
-@Getter
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ErrorResponse {
     private int status;
@@ -19,6 +17,18 @@ public class ErrorResponse {
     }
 
     // Getters & setters
+
+    public int getStatus() {
+        return status;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public LocalDateTime getTimestamp() {
+        return timestamp;
+    }
 
     public void setStatus(int status) {
         this.status = status;

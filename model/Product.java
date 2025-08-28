@@ -1,17 +1,12 @@
 package com.rr.example.spring_jpa.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
+import java.util.Date;
 
 @Entity // Marks this class as a JPA entity (table)
 @Table(name = "products") // Maps to "products" table
-@Data // Lombok: generates getters/setters/toString/hashCode
-@NoArgsConstructor
-@AllArgsConstructor
 public class Product {
 
     @Id // Primary key
@@ -28,10 +23,61 @@ public class Product {
     private Category category;
 
     @Temporal(TemporalType.TIMESTAMP) // Store date-time
-    private java.util.Date createdAt;
+    private Date createdAt;
 
 
     public enum Category {
         ELECTRONICS, BOOKS, CLOTHING
+    }
+
+    public Product() {
+    }
+
+    public Product(Long id, String name, BigDecimal price, Category category, Date createdAt) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.category = category;
+        this.createdAt = createdAt;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
+    public Date getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
     }
 }

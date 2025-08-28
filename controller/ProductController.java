@@ -36,10 +36,10 @@ public class ProductController {
         return service.getAll();
     }
     @GetMapping(value = "/{id}")
-    public String get(@PathVariable int id) throws Exception {
+    public List<Product> get(@PathVariable int id) throws Exception {
         System.out.println("Fetching product with ID: " + id);
-        throw new Exception("Security Exception occurred while fetching product with ID: " + id);
-      //  return "Not Found";
+        //throw new Exception("Security Exception occurred while fetching product with ID: " + id);
+        return  service.getAll();
     }
     @DeleteMapping("/{category}")
     public boolean delete(@PathVariable String category) {
