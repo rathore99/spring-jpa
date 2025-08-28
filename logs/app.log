@@ -1,0 +1,12 @@
+2025-08-28 18:07:23.768 [main] INFO  com.rr.example.spring_jpa.controller.ProductControllerTest - Starting ProductControllerTest using Java 24.0.2 with PID 37800 (started by learn in C:\rahul-projects\spring-jpa) 
+2025-08-28 18:07:23.865 [main] INFO  com.rr.example.spring_jpa.controller.ProductControllerTest - No active profile set, falling back to 1 default profile: "default" 
+2025-08-28 18:07:26.233 [main] INFO  com.rr.example.spring_jpa.controller.ProductControllerTest - Started ProductControllerTest in 2.853 seconds (process running for 4.555) 
+2025-08-28 18:07:26.547 [main] INFO  com.rr.example.spring_jpa.controller.UserControllerTest - Starting UserControllerTest using Java 24.0.2 with PID 37800 (started by learn in C:\rahul-projects\spring-jpa) 
+2025-08-28 18:07:26.550 [main] INFO  com.rr.example.spring_jpa.controller.UserControllerTest - No active profile set, falling back to 1 default profile: "default" 
+2025-08-28 18:07:26.846 [main] INFO  com.rr.example.spring_jpa.controller.UserControllerTest - Started UserControllerTest in 0.319 seconds (process running for 5.167) 
+2025-08-28 18:07:27.831 [main] INFO  com.rr.example.spring_jpa.repository.ProductRepositoryTest - Starting ProductRepositoryTest using Java 24.0.2 with PID 37800 (started by learn in C:\rahul-projects\spring-jpa) 
+2025-08-28 18:07:27.833 [main] INFO  com.rr.example.spring_jpa.repository.ProductRepositoryTest - No active profile set, falling back to 1 default profile: "default" 
+2025-08-28 18:07:31.387 [main] INFO  com.rr.example.spring_jpa.repository.ProductRepositoryTest - Started ProductRepositoryTest in 3.58 seconds (process running for 9.709) 
+2025-08-28 18:07:31.810 [main] INFO  com.rr.example.spring_jpa.SpringContextTest - Starting SpringContextTest using Java 24.0.2 with PID 37800 (started by learn in C:\rahul-projects\spring-jpa) 
+2025-08-28 18:07:31.812 [main] INFO  com.rr.example.spring_jpa.SpringContextTest - No active profile set, falling back to 1 default profile: "default" 
+2025-08-28 18:07:32.803 [main] INFO  com.rr.example.spring_jpa.SpringContextTest - Started SpringContextTest in 1.005 seconds (process running for 11.125) 
